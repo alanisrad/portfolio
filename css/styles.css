@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100vh;
 }
 
-.main {
-    position: relative;
+body {
+    text-align: center;
 }
 
 #particles-js {
     height: 100%;
     background: black;
     z-index: -1;
-    position: relative;
 }
 
 .container {
@@ -33,9 +32,42 @@ body {
 .container h1 {
     position: absolute;
     left: 165px;
-    top: 40px;
+    bottom: 100px;
     font-size: 60px;
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
 }
 
+nav {
+    position: absolute;
+    bottom: 550px;
+    right: 479.5px;
+    margin-top: 40px;
+    padding: 24px;
+    text-align: center;
+    font-family: Raleway;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#nav-1 {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+}
+
+.link-1 {
+    transition: 0.3s ease;
+    background: black;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.link-1:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+}
