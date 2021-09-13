@@ -31,7 +31,7 @@ body {
 
 .container h1 {
     position: absolute;
-    left: 165px;
+    left: 175px;
     bottom: 100px;
     font-size: 60px;
     font-family: 'Lato', sans-serif;
@@ -70,4 +70,12 @@ nav {
     border-top: 4px solid #ffffff;
     border-bottom: 4px solid #ffffff;
     padding: 6px 0;
+}
+
+.social-media a {
+    font-size: 30px;
+    margin: 6px;
+    color: #037570;
+    position: relative;
+    top: 180px;
 }
